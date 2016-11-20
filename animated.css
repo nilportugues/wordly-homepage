@@ -9,7 +9,6 @@
 }
 .cb-slideshow:after {
     content: '';
-    background: transparent url(../images/pattern.png) repeat top left;
 }
 .cb-slideshow li {
     list-style: none;
@@ -29,11 +28,11 @@
     opacity: 0;
     z-index: 0;
     -webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 36s linear infinite 0s;
-    -moz-animation: imageAnimation 36s linear infinite 0s;
-    -o-animation: imageAnimation 36s linear infinite 0s;
-    -ms-animation: imageAnimation 36s linear infinite 0s;
-    animation: imageAnimation 36s linear infinite 0s;
+    -webkit-animation: imageAnimation 20s linear infinite 0s;
+    -moz-animation: imageAnimation 20s linear infinite 0s;
+    -o-animation: imageAnimation 20s linear infinite 0s;
+    -ms-animation: imageAnimation 20s linear infinite 0s;
+    animation: imageAnimation 20s linear infinite 0s;
 }
 .cb-slideshow li div {
     z-index: 1000;
@@ -45,23 +44,29 @@
     opacity: 0;
     color: #fff;
     top: -256px;
-    -webkit-animation: titleAnimation 36s linear infinite 0s;
-    -moz-animation: titleAnimation 36s linear infinite 0s;
-    -o-animation: titleAnimation 36s linear infinite 0s;
-    -ms-animation: titleAnimation 36s linear infinite 0s;
-    animation: titleAnimation 36s linear infinite 0s;
+    -webkit-animation: titleAnimation 20s linear infinite 0s;
+    -moz-animation: titleAnimation 20s linear infinite 0s;
+    -o-animation: titleAnimation 20s linear infinite 0s;
+    -ms-animation: titleAnimation 20s linear infinite 0s;
+    animation: titleAnimation 20s linear infinite 0s;
 }
 .cb-slideshow li div h3 {
-    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
     font-size: 240px;
     padding: 0;
     line-height: 200px;
 }
 .cb-slideshow li:nth-child(1) span {
-    background-image: url(images/locations/bali/photo-1443176161226-96cde1416c79.jpg)
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    -ms-animation-delay: 1s;
+    animation-delay: 1s;
+
+    background-image: url(images/locations/barcelona/photo-1464730282481-19bd52679224.jpg);
 }
 .cb-slideshow li:nth-child(2) span {
-    background-image: url(images/locations/barcelona/photo-1464730282481-19bd52679224.jpg);
+    background-image: url(images/locations/bali/photo-1443176161226-96cde1416c79.jpg)
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
