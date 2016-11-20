@@ -325,9 +325,7 @@ a img{
 
 .android-wear-section {
   position: relative;
-  background: url('images/wear.png') center top no-repeat;
   background-size: cover;
-  height: 800px;
 }
 
 .android-wear-band {
@@ -339,7 +337,7 @@ a img{
 }
 
 .android-wear-band-text {
-  max-width: 800px;
+  
   margin-left: 25%;
   padding: 24px;
   text-align: left;
