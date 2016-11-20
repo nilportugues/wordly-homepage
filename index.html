@@ -86,9 +86,7 @@
         </div>
 
         <div class="android-drawer mdl-layout__drawer">
-            <span class="mdl-layout-title">
-          <img class="android-logo-image" src="images/android-logo-white.png">
-        </span>
+            
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" href="#">Places</a>
                 <a class="mdl-navigation__link" href="#">About</a>
@@ -98,8 +96,8 @@
 
         <div class="android-content mdl-layout__content">
 
-            <ul class="cb-slideshow" style="max-height: 600px; ">
-                <li><span></span></li>
+            <ul class="cb-slideshow" style="max-height: 600px;">
+                
                 <li><span>Image 01</span></li>
                 <li><span>Image 02</span></li>
                 <li><span>Image 03</span></li>
@@ -119,13 +117,13 @@
                 </div>
 
                 <div id="location-list" style="margin-bottom: 48px">
-                    <a id="sanfrancisco-button" class="mdl-button mdl-js-button mdl-js-ripple-effect">San Francisco</a>
-                    <a id="newyork-button" class="mdl-button mdl-js-button mdl-js-ripple-effect">New York</a>
-                    <a id="london-button" class="mdl-button mdl-js-button mdl-js-ripple-effect">London</a>
-                    <a id="berlin-button" class="mdl-button mdl-js-button mdl-js-ripple-effect">Berlin</a>
-                    <a id="barcelona-button" class="mdl-button mdl-js-button mdl-js-ripple-effect">Barcelona</a>
-                    <a id="bali-button" class="mdl-button mdl-js-button mdl-js-ripple-effect">Bali</a>
-                    <a id="chaingmai-button" class="mdl-button mdl-js-button mdl-js-ripple-effect">Chaing Mai</a>
+                    <a href="#location1" id="sanfrancisco-button" class="mdl-button mdl-js-button mdl-js-ripple-effect">San Francisco</a>
+                    <a href="#location2"  id="newyork-button" class="mdl-button mdl-js-button mdl-js-ripple-effect">New York</a>
+                    <a href="#location3"  id="london-button" class="mdl-button mdl-js-button mdl-js-ripple-effect">London</a>
+                    <a href="#location4"  id="berlin-button" class="mdl-button mdl-js-button mdl-js-ripple-effect">Berlin</a>
+                    <a href="#location5"  id="barcelona-button" class="mdl-button mdl-js-button mdl-js-ripple-effect">Barcelona</a>
+                    <a href="#location6" id="bali-button" class="mdl-button mdl-js-button mdl-js-ripple-effect">Bali</a>
+                    <a href="#location7" id="chaingmai-button" class="mdl-button mdl-js-button mdl-js-ripple-effect">Chaing Mai</a>
                 </div>
             </div>
 
@@ -134,12 +132,205 @@
 
 
 
-                <div class="mdl-grid" style="background-color: white">
+                <!-- LOCATION 1 -->
+                <div name="location1" class="mdl-grid" style="background-color: white">
                     <div class="mdl-cell mdl-cell--6-col">
-                        <div id="map_canvas" style="margin: 18px; height:400px;"></div>
+                        <div id="map_canvas1" style="margin: 18px; height:400px;"></div>
                     </div>
                     <div class="mdl-cell mdl-cell--6-col" style="text-align: left">
-                        <h2 style="margin-bottom: 6px; font-weight: bold;">San Francisco</h2>
+                        <h2 style="margin-bottom: 6px; font-weight: bold;">San Fracisco</h2>
+                        <h4 style="margin-top: 0; margin-bottom: 6px" class="ourcolor">WeWork SoMa</h4>
+                        <p>156 2nd St, San Francisco, CA 94105</p>
+
+
+                        <section>
+                            <ul class="lb-album">
+                                <li>
+                                    <a href="#image-1">
+                                        <img class="thumb" src="images/pics/sanfrancisco/2016-11-19_2049.png" alt="image01">
+                                    </a>
+                                    <div class="lb-overlay" id="image-1">
+                                        <img src="images/pics/sanfrancisco/2016-11-19_2049.png" alt="image01" />
+                                        <a href="#page" class="lb-close mdl-button mdl-js-button mdl-js-ripple-effect close-btn">X CLOSE</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+
+
+                    </div>
+                </div>
+
+
+
+
+                <!-- LOCATION 2 -->
+                <div name="location2" class="mdl-grid" style="background-color: white">
+                    <div class="mdl-cell mdl-cell--6-col">
+                        <div id="map_canvas2" style="margin: 18px; height:400px;"></div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col" style="text-align: left">
+                        <h2 style="margin-bottom: 6px; font-weight: bold;">New York</h2>
+                        <h4 style="margin-top: 0; margin-bottom: 6px" class="ourcolor">NoMad Coworking Office Space</h4>
+                        <p>79 Madison Ave, New York, NY 10016</p>
+
+
+                        <section>
+                            <ul class="lb-album">
+                                <li>
+                                    <a href="#image-1">
+                                        <img class="thumb" src="images/pics/sanfrancisco/2016-11-19_2049.png" alt="image01">
+                                    </a>
+                                    <div class="lb-overlay" id="image-1">
+                                        <img src="images/pics/sanfrancisco/2016-11-19_2049.png" alt="image01" />
+                                        <a href="#page" class="lb-close mdl-button mdl-js-button mdl-js-ripple-effect close-btn">X CLOSE</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+
+
+                    </div>
+                </div>
+
+
+
+
+                <!-- LOCATION 3 -->
+                <div name="location3" class="mdl-grid" style="background-color: white">
+                    <div class="mdl-cell mdl-cell--6-col">
+                        <div id="map_canvas3" style="margin: 18px; height:400px;"></div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col" style="text-align: left">
+                        <h2 style="margin-bottom: 6px; font-weight: bold;">London</h2>
+                        <h4 style="margin-top: 0; margin-bottom: 6px" class="ourcolor">Huckletree Clerkenwell </h4>
+                        <p>87 Charterhouse Street, Clerkenwell, London</p>
+
+
+                        <section>
+                            <ul class="lb-album">
+                                <li>
+                                    <a href="#image-1">
+                                        <img class="thumb" src="images/pics/sanfrancisco/2016-11-19_2049.png" alt="image01">
+                                    </a>
+                                    <div class="lb-overlay" id="image-1">
+                                        <img src="images/pics/sanfrancisco/2016-11-19_2049.png" alt="image01" />
+                                        <a href="#page" class="lb-close mdl-button mdl-js-button mdl-js-ripple-effect close-btn">X CLOSE</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+
+
+                    </div>
+                </div>
+
+
+
+
+                <!-- LOCATION 4 -->
+                <div name="location4" class="mdl-grid" style="background-color: white">
+                    <div class="mdl-cell mdl-cell--6-col">
+                        <div id="map_canvas4" style="margin: 18px; height:400px;"></div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col" style="text-align: left">
+                        <h2 style="margin-bottom: 6px; font-weight: bold;">Berlin</h2>
+                        <h4 style="margin-top: 0; margin-bottom: 6px" class="ourcolor">Co Up</h4>
+                        <p>Adalbertstraße 8, 10999 Berlin, Germany</p>
+
+
+                        <section>
+                            <ul class="lb-album">
+                                <li>
+                                    <a href="#image-1">
+                                        <img class="thumb" src="images/pics/sanfrancisco/2016-11-19_2049.png" alt="image01">
+                                    </a>
+                                    <div class="lb-overlay" id="image-1">
+                                        <img src="images/pics/sanfrancisco/2016-11-19_2049.png" alt="image01" />
+                                        <a href="#page" class="lb-close mdl-button mdl-js-button mdl-js-ripple-effect close-btn">X CLOSE</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+
+
+                    </div>
+                </div>
+
+
+
+                <!-- LOCATION 5 -->
+                <div name="location5" class="mdl-grid" style="background-color: white">
+                    <div class="mdl-cell mdl-cell--6-col">
+                        <div id="map_canvas5" style="margin: 18px; height:400px;"></div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col" style="text-align: left">
+                        <h2 style="margin-bottom: 6px; font-weight: bold;">Barcelona</h2>
+                        <h4 style="margin-top: 0; margin-bottom: 6px" class="ourcolor">MAUI Beach Coworking</h4>
+                        <p>Carrer del Perelló, 74, 08005 Barcelona</p>
+
+
+                        <section>
+                            <ul class="lb-album">
+                                <li>
+                                    <a href="#image-1">
+                                        <img class="thumb" src="images/pics/sanfrancisco/2016-11-19_2049.png" alt="image01">
+                                    </a>
+                                    <div class="lb-overlay" id="image-1">
+                                        <img src="images/pics/sanfrancisco/2016-11-19_2049.png" alt="image01" />
+                                        <a href="#page" class="lb-close mdl-button mdl-js-button mdl-js-ripple-effect close-btn">X CLOSE</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+
+
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- LOCATION 6 -->
+                <div name="location6" class="mdl-grid" style="background-color: white">
+                    <div class="mdl-cell mdl-cell--6-col">
+                        <div id="map_canvas6" style="margin: 18px; height:400px;"></div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col" style="text-align: left">
+                        <h2 style="margin-bottom: 6px; font-weight: bold;">Bali</h2>
+                        <h4 style="margin-top: 0; margin-bottom: 6px" class="ourcolor"> Lineup Hub</h4>
+                        <p>Jl. Sunset Road Ruko Sunset Permai No.3, Legian, Kuta, Kabupaten Badung, Bali 80361, Indonesia</p>
+
+
+                        <section>
+                            <ul class="lb-album">
+                                <li>
+                                    <a href="#image-1">
+                                        <img class="thumb" src="images/pics/sanfrancisco/2016-11-19_2049.png" alt="image01">
+                                    </a>
+                                    <div class="lb-overlay" id="image-1">
+                                        <img src="images/pics/sanfrancisco/2016-11-19_2049.png" alt="image01" />
+                                        <a href="#page" class="lb-close mdl-button mdl-js-button mdl-js-ripple-effect close-btn">X CLOSE</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+
+
+                    </div>
+                </div>
+
+
+
+
+                <!-- LOCATION 7 -->
+                <div name="location7" class="mdl-grid" style="background-color: white">
+                    <div class="mdl-cell mdl-cell--6-col">
+                        <div id="map_canvas7" style="margin: 18px; height:400px;"></div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col" style="text-align: left">
+                        <h2 style="margin-bottom: 6px; font-weight: bold;">Chiang Mai</h2>
                         <h4 style="margin-top: 0; margin-bottom: 6px" class="ourcolor">StarWork Chiangmai</h4>
                         <p>Mueang Chiang Mai District, Chiang Mai 50000, Thailand</p>
 
@@ -152,9 +343,7 @@
                                     </a>
                                     <div class="lb-overlay" id="image-1">
                                         <img src="images/pics/sanfrancisco/2016-11-19_2049.png" alt="image01" />
-
-                                        <a href="#page" class="lb-close mdl-button mdl-js-button mdl-js-ripple-effect"
-                                           style="display:block; width: 100px; height:36px; position:relative; z-index:999">X CLOSE</a>
+                                        <a href="#page" class="lb-close mdl-button mdl-js-button mdl-js-ripple-effect close-btn">X CLOSE</a>
                                     </div>
                                 </li>
                             </ul>
@@ -163,30 +352,41 @@
 
                     </div>
                 </div>
+
+
             </div>
         </div>
     </div>
 <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDG45gO5fMpVyidko-DVr09BR7P8bnDMzE&signed_in=true"></script>
 <script>
-    function initialize()
+
+    function initialize(selectorName, lat, lon, zoom, radius)
     {
-        var latlng = new google.maps.LatLng(18.520266,73.856406);
+        var latlng = new google.maps.LatLng(lat, lon);
+        var myOptions = { zoom: zoom, center: latlng, mapTypeId: google.maps.MapTypeId.ROADMAP };
+        var map = new google.maps.Map(document.getElementById(selectorName), myOptions);
+        var myMarker = new google.maps.Marker({ position: latlng, map: map });
 
-        var myOptions =
-        {
-            zoom: 15,
+        var cityCircle = new google.maps.Circle({
+            strokeColor: '#FF0000',
+            strokeOpacity: 0.8,
+            strokeWeight: 2,
+            fillColor: '#FF0000',
+            fillOpacity: 0.35,
+            map: map,
             center: latlng,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-
-
-        var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-        var myMarker = new google.maps.Marker({ position: latlng, map: map, title:"Pune" });
-
+            radius: radius
+          });
     }
 
-    initialize();
+    initialize('map_canvas1', 37.7871083,-122.4012936, 16, 200);
+    initialize('map_canvas2', 40.7440668,-73.9874109, 16, 200);
+    initialize('map_canvas3', 51.5197225,-0.1042346, 16, 200);
+    initialize('map_canvas4', 52.500588,13.4169265, 16, 200);
+    initialize('map_canvas5', 41.3976123,2.2028975, 16, 200);
+    initialize('map_canvas6', -8.7012289,115.1775022, 16, 200);
+    initialize('map_canvas7', 18.7776634,99.0037299, 16, 200);
 </script>
 </body>
 

@@ -57,11 +57,11 @@
     line-height: 200px;
 }
 .cb-slideshow li:nth-child(1) span {
-    -webkit-animation-delay: 1s;
-    -moz-animation-delay: 1s;
-    -o-animation-delay: 1s;
-    -ms-animation-delay: 1s;
-    animation-delay: 1s;
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
 
     background-image: url(images/locations/barcelona/photo-1464730282481-19bd52679224.jpg);
 }

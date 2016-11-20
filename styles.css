@@ -14,9 +14,18 @@
  * limitations under the License.
  */
 
+ .close-btn {
+display:block; width: 100px; height:36px; position:relative; z-index:999
+ }
+ 
+#scrollable {
+   overflow-y: scroll !important;
+   height: 101%
+}
 
 .ourcolor {
   color: #5DBCD2;
+  font-weight: bold;
 }
 
 
